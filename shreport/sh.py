@@ -22,7 +22,7 @@ class SH(object):
         self.cookies = cookies
 
     def date_ranges(self):
-        begin = datetime.datetime(1990, 11, 26)
+        begin = datetime.datetime(2014, 11, 26)
         now = datetime.datetime.today()
         interv = datetime.timedelta(days=900)
         dates = []
